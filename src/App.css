@@ -1,0 +1,21 @@
+.nav-item{
+    margin: 10px
+}
+
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.projectCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.single-card{
+    margin: 15px;
+    height: 300px ;
+    
+}
