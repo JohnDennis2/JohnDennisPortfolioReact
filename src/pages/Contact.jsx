@@ -1,21 +1,38 @@
 export default function Contact() {
+  // Function to handle form submission
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    // Access form input values directly from the DOM
+    const formData = {
+      name: event.target.elements.name.value,
+      email: event.target.elements.email.value,
+      message: event.target.elements.message.value
+    };
+    // Here you can perform any action with the form data, like sending it to a server
+    console.log(formData);
+    // Reset form fields after submission
+    event.target.reset();
+  };
+
   return (
-    // USe module 20 act 16 index.jsx and style.css properties in
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <h2>Contact Us</h2>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <label>Name:</label>
+          <input type="text" name="name" required />
+        </div>
+        <div>
+          <label>Email:</label>
+          <input type="email" name="email" required />
+        </div>
+        <div>
+          <label>Message:</label>
+          <textarea name="message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
   );
 }
+ // USe module 20 act 16 index.jsx and style.css properties in
