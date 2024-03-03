@@ -31,3 +31,7 @@ Credits
 This project was created by John dennis. You can find more of my work thorugh GitHub at : https://github.com/JohnDennis2
 
 For any questions or inquiries, please feel free to contact me via email or connect with me on LinkedIn.
+
+## Screenshot
+
+![Alt text](./ReactScreenshot.png "Screenshot")
