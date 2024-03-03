@@ -6,11 +6,11 @@ import Footer from './pages/Footer';
 
 function App() {
   return (
-    <>
+    <div className="container" >
       <Header />
       <Outlet />
       <Footer />
-    </>
+    </div>
   );
 }
 

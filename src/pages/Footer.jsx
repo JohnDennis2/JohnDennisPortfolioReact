@@ -2,7 +2,7 @@
 
 function Footer(){
     return(
-        <div>
+        <div className="footer">
             {/* link to github and linkedin, if you ccan get logos for each and make them clickable that would be best */}
             {/* {href} */}
             <h2>John Dennis Portfolio</h2>

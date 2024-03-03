@@ -22,4 +22,23 @@
 
 .header{
     color: aqua;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+}
+
+.footer {
+    color: aqua;
+    align-items: center;
+    background-color: black;
+    justify-content: center;
+}
+.container{
+    justify-content: center;
+    vertical-align: middle;
+    margin-top: 50px;
+}
+.contact{
+    justify-content: center;
+    background-color: aqua;
 }
