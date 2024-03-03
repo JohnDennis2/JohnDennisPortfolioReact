@@ -8,7 +8,7 @@ import Contact from "./pages/Contact.jsx"
 import Portfolio from './pages/Portfolio.jsx'
 import Resume from './pages/Resume.jsx'
 
-const potato = createBrowserRouter([
+const newRoute = createBrowserRouter([
   {
     path: '/', //sets landing page and base url
     element: <App />,
@@ -36,5 +36,5 @@ const potato = createBrowserRouter([
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <RouterProvider router={potato} />
+  <RouterProvider router={newRoute} />
 )
