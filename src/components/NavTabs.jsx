@@ -4,7 +4,7 @@ import {Link} from "react-router-dom"
 
 function NavTabs() {
   return (
-    <div className="nav-container">
+    <div className="nav-container" data-bs-theme="blue">
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link to="/">About</Link>

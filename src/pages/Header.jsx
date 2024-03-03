@@ -2,8 +2,8 @@ import NavTabs from "../components/NavTabs";
 
 function Header(){
     return(
-        <div>
-            <h2>This is a header</h2>
+        <div className ="header" >
+            <h2>John Dennis Portfolio</h2>
             <NavTabs />
         </div>
     )
